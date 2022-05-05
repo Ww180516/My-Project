@@ -1,7 +1,9 @@
 import React from "react"
-import { Text, TextInput, View, TouchableOpacity } from 'react-native'
+import { Text, TextInput, View, TouchableOpacity, Image } from 'react-native'
 import ResultTime from "./ResultTime"
 import styles from "./style"
+
+import boneco from '../../../assets/bonequinho.png';
 
 export default function Form () {
 
@@ -30,6 +32,8 @@ export default function Form () {
                     <Text style={styles.buttonPlay}>iniciar</Text>
 
                 </TouchableOpacity>
+
+                <Image source={boneco} style={styles.Bonequinho}></Image>
             </View>
             <ResultTime />
         </View>

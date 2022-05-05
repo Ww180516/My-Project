@@ -45,9 +45,12 @@ const styles = StyleSheet.create({
     },
     buttonInit:{
         fontSize:20,
-        alignItems:"center",
-        formContext:20,
-        color:"#000000"
+        alignItems:"center",    
+        color:"#000000"        
+    },
+    Bonequinho:{
+        width:100,
+        height:100,
     }
 
 });

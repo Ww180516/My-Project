@@ -6,7 +6,7 @@ import Form from './src/components/Form'
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.container}>       
      <Title />
      <Form />
     </View>
