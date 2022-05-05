@@ -1,5 +1,6 @@
 import React from "react"
 import { Text, TextInput, View, Button } from 'react-native'
+import ResultTime from "./ResultTime"
 import styles from "./style"
 
 export default function Form () {
@@ -27,6 +28,7 @@ export default function Form () {
                 />
                 <Button title="Começar"/>
             </View>
+            <ResultTime />
         </View>
     );
     
