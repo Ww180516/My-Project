@@ -1,5 +1,5 @@
 import React from "react"
-import { Text, TextInput, View, Button } from 'react-native'
+import { Text, TextInput, View, TouchableOpacity } from 'react-native'
 import ResultTime from "./ResultTime"
 import styles from "./style"
 
@@ -26,7 +26,9 @@ export default function Form () {
                 placeholder="Ex:12"
                 keyboardType="numeric"
                 />
-                <Button title="Começar"/>
+                <TouchableOpacity style={styles.buttonInit}>
+                    <Text style={styles.buttonPlay}>iniciar</Text>
+                    </TouchableOpacity>
             </View>
             <ResultTime />
         </View>

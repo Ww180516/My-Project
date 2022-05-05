@@ -20,8 +20,9 @@ const styles = StyleSheet.create({
     },
     formLabel:{
         color:"#000000",
-        fontSize:18,
-        paddingLeft:20,
+        fontSize:25,
+        fontWeight:"bold",
+        paddingLeft:10,
     },
     input:{
         width:"90%",
@@ -29,7 +30,22 @@ const styles = StyleSheet.create({
         backgroundColor:"#f6f6f6",
         height:40,
         margin:12,
-        paddingLeft:10,   
+        paddingLeft:18,           
+    },
+    buttonPlay:{
+        borderRadius:20,
+        alignItems:"center",
+        justifyContent:"center",
+        width:"200%",
+        backgroundColor:"#ff8c00",
+        paddingTop:20,
+        paddingBottom:20,
+        marginLeft:30,
+        margin:30,
+    },
+    buttonInit:{
+        fontSize:20,
+        color:"#000000"
     }
 
 });
