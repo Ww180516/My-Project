@@ -28,7 +28,8 @@ export default function Form () {
                 />
                 <TouchableOpacity style={styles.buttonInit}>
                     <Text style={styles.buttonPlay}>iniciar</Text>
-                    </TouchableOpacity>
+
+                </TouchableOpacity>
             </View>
             <ResultTime />
         </View>

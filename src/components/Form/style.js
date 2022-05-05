@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         paddingLeft:18,           
     },
     buttonPlay:{
-        borderRadius:20,
+        borderRadius:18,
         alignItems:"center",
         justifyContent:"center",
         width:"200%",
@@ -45,6 +45,8 @@ const styles = StyleSheet.create({
     },
     buttonInit:{
         fontSize:20,
+        alignItems:"center",
+        formContext:20,
         color:"#000000"
     }
 

@@ -11,6 +11,7 @@ form:{
 formLabel:{
     color:"#000000",
     fontSize:30,
+    fontWeight:"bold",
     paddingLeft:20,
 
 }
